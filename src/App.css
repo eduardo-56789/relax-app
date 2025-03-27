@@ -37,3 +37,35 @@ button:hover {
   color: #e74c3c;
   font-weight: bold;
 }
+/* App.css */
+body {
+  background-image: url('https://example.com/cat-image.jpg'), url('https://example.com/capibara-image.jpg');
+  background-size: cover; /* Hace que las imágenes cubran toda la pantalla */
+  background-position: center; /* Centra las imágenes */
+  background-repeat: no-repeat; /* Evita que las imágenes se repitan */
+}
+
+.contenedor {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para hacer el texto más legible */
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff6347; /* Un color bonito para el botón */
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: #ff4500; /* Cambio de color al pasar el ratón */
+}

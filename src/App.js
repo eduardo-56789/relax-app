@@ -18,7 +18,10 @@ const frases = [
   "Hoy es un buen día para empezar de nuevo 💫",
   "La felicidad está en las pequeñas cosas 🍀",
   "Tú puedes con todo lo que te propongas 💫",
-  "Sé la razón por la que alguien sonría hoy 😊"
+  "Sé la razón por la que alguien sonría hoy 😊",
+  "Eres hermosa ❤️",
+  "Tú eres un regalo para el mundo 🎁",
+  "Hoy es el día perfecto para ser feliz 😊"
 ];
 
 function App() {
@@ -45,7 +48,6 @@ function App() {
       <p className="mensaje-footer">
         Realizado con amor por Eduardo. ¡Ya no te estreses, que te haces fea! 😘
       </p>
-      
       <Analytics />
     </div>
   );
